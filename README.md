@@ -17,6 +17,6 @@ This is a local editor, not a public web service. It binds only to 127.0.0.1, ch
 
 Read [SKILL.md](SKILL.md) for full usage.
 
-## License
+## Test the localhost safeguards\n\nRun the integration checks with Node.js and Python 3 installed:\n\n    python3 -m unittest discover -s tests -v\n\nThe tests open a disposable Markdown file on a temporary local port and verify authorized saves, foreign-origin blocks, and host validation.\n\n## License
 
 MIT.

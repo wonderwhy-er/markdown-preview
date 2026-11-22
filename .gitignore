@@ -2,3 +2,5 @@
 *.bak
 *.annotations.json
 node_modules/
+__pycache__/
+*.pyc
